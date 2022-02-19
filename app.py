@@ -6,7 +6,7 @@ from keras.models import load_model
 import requests
 from bs4 import BeautifulSoup
 
-model = load_model('ResnetNet_jay.h5')
+model = load_model('mobilenet_jay.h5')
 labels = {0: 'Biryani', 1: 'Chole bature', 2: 'Dhokla', 3: 'Dosa', 4: 'Ghevar', 5: 'Gulab Jamun', 6: 'Halwa', 7: 'Idli', 8: 'Jalebi', 9: 'Kachori', 10: 'Kofta', 11: 'Ladoo', 12: 'Pani puri', 13: 'Paratha', 14: 'Poha', 15: 'Rasgulla', 16: 'Samosa', 17: 'Vada Pav'}
 
 ############
